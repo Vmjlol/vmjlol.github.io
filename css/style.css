@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner{
+    height: 100vh; /* Aqui estou definindo que a section vai ter 1100 vh de altura */
+    background-image: url('./imagens/WhatsApp\ Image\ 2023-11-23\ at\ 07.18.10.jpeg');
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    color: white;
+}
+
+.banner header {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.banner span {
+    color: rgb(0, 157, 255);
+}
+
